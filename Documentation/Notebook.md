@@ -3,6 +3,11 @@ For weekly entries of what occurred in design.
 
 Our weekly meetings with our TA, Bill Yang, were on Mondays 6-6:30PM.
 
+### Final Design
+<p align="center">
+    <img src="../Images/Battlebot_Main.png" alt="Final Battlebot Image" style="width:25%; height:25%;">
+</p>
+
 # Week of Jan 20
 The beginning of the school year, formed group of: Justin, Yuxuan, and Zilong. This was the week of the Initial Web Board Post. Also when we decided on the idea of partaking in the Antweight, 3D Printed Battlebot competition hosted by Professor Gruev.
 
@@ -17,7 +22,7 @@ This week contained our first meeting with our TA (Bill). Beforehand, we as a te
 
 ### Images
 <p align="center">
-    <img src="../Images/Block_Diagram.png" alt="Final Block Diagram" style="width:25%; height:25%;">
+    <img src="../Images/Block_Diagram.png" alt="Final Block Diagram" style="width:40%; height:40%;">
 </p>
 
 # Week of Feb 17
@@ -28,7 +33,12 @@ No weekly meeting with Bill this week. There would be a Design Review of our Pro
 - Begin on working on PCB schematics.
 
 # Week of Feb 24
-Our weekly meeting with our TA is now Mondays 6-6:30pm. Feedback from Bill for this week was primarily about looking at our PCB schematics but this was when we had the STM32. We also did ask about changing from STM32 to ESP32 but this would later be done after the PCB Review. After the PCB Review, we were told that we were allowed to change from STM32 to ESP32. The STM32 we had originally picked did not support Bluetooth or WiFi communications, additionally, we found the ESP32-WROOM-32E to be easier to work with and supported all of our needs. We would also try to finish the PCB files before the first round PCBway orders. We also began working on the Design Document. Towards the end of the week after deciding to swap to the ESP32, we also began figuring out how to code for the ESP32 using WiFi signals as originally (Justin) thought that WiFi would be more instant than Bluetooth. However, later on we learned the actual difference between Bluetooth and WiFi is quite minimal for these kinds of projects in comparison to things that require 2.4Ghz connections (i.e. Gaming/Reaction based projects).
+Our weekly meeting with our TA is now Mondays 6-6:30pm. Feedback from Bill for this week was primarily about looking at our PCB schematics but this was when we had the STM32. Partial of the STM32 wiring can be found in the images section. We also did ask about changing from STM32 to ESP32 but this would later be done after the PCB Review. After the PCB Review, we were told that we were allowed to change from STM32 to ESP32. The STM32 we had originally picked did not support Bluetooth or WiFi communications, additionally, we found the ESP32-WROOM-32E to be easier to work with and supported all of our needs. We would also try to finish the PCB files before the first round PCBway orders. We also began working on the Design Document. Towards the end of the week after deciding to swap to the ESP32, we also began figuring out how to code for the ESP32 using WiFi signals as originally (Justin) thought that WiFi would be more instant than Bluetooth. However, later on we learned the actual difference between Bluetooth and WiFi is quite minimal for these kinds of projects in comparison to things that require 2.4Ghz connections (i.e. Gaming/Reaction based projects).
+
+### Images
+<p align="center">
+    <img src="../Images/Original_Partial_STM32_Wiring.png" alt="Partial STM32 Wiring" style="width:25%; height:25%;">
+</p>
 
 ### Tasks
 - Everyone begins working on PCB schematic and layout
@@ -62,6 +72,12 @@ For the coding portion: Essentially, we used a hotspot (WiFi) as our method of w
 ### Notes
 - Code that we utilized for this Breadboard demo can be found in [Old Code, connected utilizing WiFi/HotSpot](../Code/Original%20Code%20(Not%20Working)/)
 - The portions of our original PCB design that we used can be found in [Design Document](Design%20Document.pdf). The actual Gerber files (that we still have) can be found in [PCB Gerber Rev 1 Files](../PCB/Gerber%20V1/)
+- An example of issues we ran into for our Revision 1 PCB is in the Images
+
+### Images
+<p align="center">
+    <img src="../Images/PCB_Error.jpg" alt="Rev1 PCB Error" style="width:25%; height:25%;">
+</p>
 
 # Week of Mar 17
 The week of spring break. Attempt to get back on schedule if time. Ordered some components. Found Dabble library to utilize for controller (on Phone) and connect to the ESP32.
@@ -71,7 +87,7 @@ The week of spring break. Attempt to get back on schedule if time. Ordered some 
 - Justin and Yuxuan find software changes if time
 
 # Week of Mar 24
-During our weekly TA meeting, we got some advice on 3D printing (i.e. what software to use). Additionally we got some advice on our PCB on components, programming the chip, etc. We also got more advice on Pneumatic system. In this week, we began playing around with 3D prints to see what our Battlebot would need in size, etc. More importantly, Second Round PCBs arrived. However, after attempting to test, we figured out that the board wouldn't have worked properly. This was because in the original schematic wiring, (Justin) didn't realize that labeling a wire "12v_out" and KiCad's "12V" label are different, which thus made virtually anything connected to the 12V wire not powered. As such, we had to fix this for third round orders. We also sized down our board to make it more compact. Made many more adjustments to the PCB in general - including programming pins, Pneumatic placeholder, rewiring certain pins - this version can be found in [PCB V2](../PCB/group1_battlebot/). Also, Justin and Yuxuan made lots of progress for the software portion, only needs minor changes (if any). Finally, Zilong made a first version of his Pneumatic system with some testing.
+During our weekly TA meeting, we got some advice on 3D printing (i.e. what software to use). Additionally we got some advice on our PCB on components, programming the chip, etc. We also got more advice on Pneumatic system. In this week, we began playing around with 3D prints to see what our Battlebot would need in size, etc. More importantly, Second Round PCBs arrived. However, after attempting to test, we figured out that the board wouldn't have worked properly. This was because in the original schematic wiring, (Justin) didn't realize that labeling a wire "12v_out" and KiCad's "+12V" label are different, which thus made virtually anything connected to the +12V wire not powered. As such, we had to fix this for third round orders. We also sized down our board to make it more compact. Made many more adjustments to the PCB in general - including programming pins, Pneumatic placeholder, rewiring certain pins - this version can be found in [PCB V2](../PCB/group1_battlebot/). Also, Justin and Yuxuan made lots of progress for the software portion, only needs minor changes (if any). Finally, Zilong made a first version of his Pneumatic system with some testing.
 
 ### Tasks
 - Zilong will focus on 3D prints, Yuxuan will also help work on this
@@ -80,6 +96,10 @@ During our weekly TA meeting, we got some advice on 3D printing (i.e. what softw
 - Justin and Yuxuan work with Dabble library coding
 
 ### Images
+<p align="center">
+    <img src="../Images/Incorrect_Wiring_12V_Example.png" alt="Incorrect 12V Wiring" style="width:25%; height:25%;">
+</p>
+
 <p align="center">
     <img src="../Images/V3%20PCB.png" alt="PCB V2" style="width:25%; height:25%;">
 </p>
@@ -105,6 +125,11 @@ The weekly TA meeting, we ordered more components. We also demoed the Pneumatic 
 - Zilong modify the Pneumatic system as required
 - Justin and Yuxuan be ready for changes to software
 
+### Images
+<p align="center">
+    <img src="../Images/Testing_Controls.png" alt="Testing Controls" style="width:25%; height:25%;">
+</p>
+
 # Week of Apr 14
 During this weeks weekly TA meeting, we demoed the Pneumatic System working more reliably. Addiitonally, we finally triggered it using the ESP32 dev kit control signal. By this point, Zilong had changed the Pneumatic system to use a BJT instead of NMOS. Zilong also needed a slightly altered circuit to reliably trigger the Pneumatic system. He utilized the TIP120 BJT chip, added in things like a flyback diode, and have a 10k-ohm resistor between the microcontroller and the base of the TIP120 to limit current draw. This made the Pneumatic system a lot more reliable in triggering. Besides this, everyone continued to work on soldering, unit testing, and debugging our circuit. Test the parts according to the design/verification as found in [Design Document](Design%20Document.pdf).
 
@@ -112,6 +137,11 @@ During this weeks weekly TA meeting, we demoed the Pneumatic System working more
 - Everyone continue to solder, unit test, and debug circuit
 - Zilong continue working on Pneumatic
 - Zilong continue to work on 3D prints
+
+### Images
+<p align="center">
+    <img src="../Images/Demo_Pneumatic_4-14.png" alt="Testing Controls" style="width:25%; height:25%;">
+</p>
 
 # Week of Apr 21
 In the weekly TA meeting with Bill, we were to perform our Mock Demo. We were able to demonstrate full functionality of the individual subsystems. The control and weapon subsystems (power subsystem was a bit harder to show) we were able to demonstrate easily. The drivetrain subsystem was a little bit more difficult as we had to figure out why the chip itself wasn't working properly; we were able to show that the actual code was correct for directional inputs and activating Pneumatic weapon. Finally, we realized that the H-Bridge (DRV8833RTY) was wired (somewhat) incorrectly. The DRV8833RTY VM's pin only supports a max of 10.8V but we were giving it 12V (11.1V+) from the battery/power supply. We diagnosed this by checking the nFault pin which would read logic level low when there is a faulty condition. As such, the only possible reasons were because we had fried the chip or burnt it (from the reflow oven). It was most likely due to giving a higher voltage than it could handle. 
@@ -126,6 +156,11 @@ We also began 3D printing the final versions of our chassis and weapon (scooper)
 
 ### Notes
 - I think this was the week we extended the tube length of Pneumatic system for more power.
+
+### Images
+<p align="center">
+    <img src="../Images/Charging_Battery.png" alt="Internal Image" style="width:30%; height:30%;">
+</p>
 
 # Week of Apr 28
 No weekly TA meeting (I think?). This was the week of Final Demos and Mock Presentations. We had a fully working Battlebot with all our specifications ready on Monday. Minutes before the actual Final Demo on 4/28, we somehow managed to fry the Buck Converter, which then fried our ESP32 (tested using voltmeter/multimeter). Luckily, Professor Gruev was kind enough to allow us to Demo on Wednesday. We overnight shipped a new buck converter (LM2596S-3.3) from Digikey and resoldered everything onto a new board (with a new ESP32) and reprogram it. We then electrical taped the inside of our Battlebot for any components we suspected could somehow accidentally cause short circuits or touch other components. We successfully made the Final Demo, Battlebot pictures and more in depth can be found in [Final Presentation](Ant-weight%203D%20Printed%20Battlebot%20slides.pdf). Also had mock presentations this week which we used to then enhance our Final Presentation to what it is now.

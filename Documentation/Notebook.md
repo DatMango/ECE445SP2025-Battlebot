@@ -127,7 +127,7 @@ No weekly TA meeting (I think?). This was the week of Final Demos and Mock Prese
 
 ### Images
 <p align="center">
-    <img src="Images/Internal_Layout.png" alt="Internal Image" style="width:25%; height:25%;">
+    <img src="../Images/Internal_Layout.png" alt="Internal Image" style="width:25%; height:25%;">
 </p>
 
 ### Notes

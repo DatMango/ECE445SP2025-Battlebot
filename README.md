@@ -17,3 +17,6 @@ The issue at hand is an Ant-weight, 3D Printed Battlebot Competition in which ea
 
 ## Solution
 We decided upon developing a 3D Printed Bluetooth-controlled battle bot powered by an ESP32 microcontroller. The Battlebot communicates with a PC via a Bluetooth module, enabling wireless command and control. It is equipped with two DC motors driven by H-bridge circuits for precise movement and a ramp-shaped weapon system for engaging in battles. The ESP32 manages motor control using GPIO and PWM, while the weapon system utilizes GPIO. The bot integrates real-time communication, robust motor control, and weapon functionality, offering an engaging and functional design. My goal is to create a responsive and competitive robot for dynamic competitions.
+
+## Video!
+[Battlebot Intro Video](https://youtu.be/LQH7uXVlK6E)

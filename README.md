@@ -4,7 +4,9 @@ UIUC ECE 445 Spring 2025 - Senior Design Repository
 ## Project: Ant-weight, 3D Printed Battlebot
 Name of Battlebot: Ant-weight Battlebot - Scooper
 
-[Scooper Image](Images/Battlebot_Main.png)
+<div style="text-align: center;">
+    <img src="Images/Battlebot_Main.png" alt="Scooper Image" style="width:25%; height:25%;">
+</div>
 
 ## Team Members:
 - Justin Leong (jyleong2@illinois.edu)

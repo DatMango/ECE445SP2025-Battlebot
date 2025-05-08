@@ -16,8 +16,13 @@ After third class meeting, we confirmed together that we were working on the Ant
 This week contained our first meeting with our TA (Bill). Beforehand, we as a team had prepared and worked on a first draft of our Block Diagram, three High-Level Requirements, and one Subsystem Requirement from our worked on Project Proposal. We had seeked feedback from Bill upon our project and got some guidance in the right direction on how to develop a Pneumatic system. We also sought advice on if we were in the right direction for our Project Proposal. This was also the week we turned in our [Project Proposal](Project%20Proposal.pdf) as well as our [Team Contract](Team%20Contract.pdf). Finally, we made sure that our Project Proposal was ready for the Proposal Review.
 
 # Week of Feb 17
+No weekly meeting with Bill this week. There would be a Design Review of our Project Proposal. Design Review would take place on 2/19 11AM. I believe there was an update to our high level block diagram a day before the review due to some missing parts.
+### Tasks
+- Everyone focuses on making sure [Project Proposal](Project%20Proposal.pdf) was ready for the Project Proposal / Design Review.
+- Begin on working on PCB schematics.
 
 # Week of Feb 24
+
 
 # Week of Mar 3
 

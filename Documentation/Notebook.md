@@ -125,6 +125,11 @@ No weekly TA meeting (I think?). This was the week of Final Demos and Mock Prese
 - Everyone get ready to present the Final Presentation
 - Also performed Extra Credit Video Assignment [Extra Credit Video](https://youtu.be/LQH7uXVlK6E)
 
+### Images
+<p align="center">
+    <img src="Images/Internal_Layout.png" alt="Scooper Image" style="width:25%; height:25%;">
+</p>
+
 ### Notes
 - All 3D prints can be found in [3D Print Materials](../3D_Print/)
 

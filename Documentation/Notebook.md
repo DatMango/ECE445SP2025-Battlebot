@@ -79,6 +79,11 @@ During our weekly TA meeting, we got some advice on 3D printing (i.e. what softw
 - Justin and Zilong fix PCB
 - Justin and Yuxuan work with Dabble library coding
 
+### Images
+<p align="center">
+    <img src="../Images/V3%20PCB.png" alt="PCB V2" style="width:25%; height:25%;">
+</p>
+
 ### Notes
 - Code created can be found in [Final Code](../Code/Working%20Code/). How it's used can be found in [Code Information](../Code/Important_Code_Info.md)
 
